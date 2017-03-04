@@ -1,0 +1,100 @@
+.welcome 
+	width 100%
+	height 100vh
+	display flex
+	display -webkit-flex
+	align-items center
+	-webkit-align-items center
+	justify-content center
+	-webkit-justify-content center
+	flex-direction column
+	-webkit-flex-direction column
+	text-align center
+	background-color #000000
+	background-image url('/assets/image/background/photographer-424622_1280.jpg')
+	background-size cover
+	background-position center
+	z-index 0
+
+	&:before
+		position absolute 
+		z-index 0
+		top 0
+		left 0
+		content ""
+		width 100%
+		height 100%
+		background-image -webkit-linear-gradient(to bottom, rgba(#000000, .94) 60%, #000000 120%)
+		background-image linear-gradient(to bottom, rgba(#000000, .94) 60%, #000000 120%)
+
+	> .action
+		@extend .button, .button.--default
+		font-size 1.2em
+		font-weight 700
+		z-index 1
+		
+	> .brand 
+		border solid 3px #FFFFFF
+		color #000000
+		background-color #FFFFFF
+		font-size 3em
+		margin-bottom 30px
+		height 80px
+		width 80px
+		z-index 1
+		border-radius 10px
+		display flex
+		display -webkit-flex
+		align-items center
+		-webkit-align-items center
+		justify-content center
+		-webkit-justify-content center
+		font-weight 700
+		 
+		
+	> .typo 
+		// gradientText()
+		font-size 3em 
+		text-decoration none
+		color #FFFFFF
+		z-index 1
+		font-weight 300
+
+	> .icon
+		z-index 1
+		position absolute
+		bottom 30px
+		font-size 2em
+		color #FFFFFF
+		animation fade 2s infinite
+
+
+@keyframes fade
+	0% 
+		opacity .0
+	10%
+		opacity .1
+	20%
+		opacity .2
+	30%
+		opacity .3
+	40%
+		opacity .4
+	50%
+		opacity .5
+	60%
+		opacity .6
+	70%
+		opacity .7
+	80%
+		opacity .8
+	90%
+		opacity .9
+	100%
+		opacity .1
+	
+	
+	
+	
+	
+	

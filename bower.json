@@ -1,0 +1,21 @@
+{
+  "name": "photographer",
+  "description": "Projeto de Site institucional para fotográfia",
+  "main": "gulpfile.js",
+  "authors": [
+    "Gabriel E Thiago"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/gasfu/photographer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/stylsheets/packeges",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "animate.css": "^3.5.2"
+  }
+}

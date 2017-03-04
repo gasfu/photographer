@@ -1,0 +1,34 @@
+@font-face 
+  font-family 'fontello'
+  src url('/assets/fonts/fontello.eot?38348690')
+  src url('/assets/fonts/fontello.eot?38348690#iefix') format('embedded-opentype'),
+      url('/assets/fonts/fontello.woff2?38348690') format('woff2'),
+      url('/assets/fonts/fontello.woff?38348690') format('woff'),
+      url('/assets/fonts/fontello.ttf?38348690') format('truetype'),
+      url('/assets/fonts/fontello.svg?38348690#fontello') format('svg');
+  font-weight normal
+  font-style normal
+
+
+.icon 
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	
+	&.--menu::before
+		content '\e801';
+	
+	/** ===== REDES SOCIAIS ===== */
+	&.--icon-facebook::before
+		content '\e803'
+		
+	&.--icon-twitter::before
+		content '\e802'
+	
+	/** ===== SETAS ===== */
+	&.--icon-down-open-big::before
+		content '\e800'
+		
+	&.--icon-angle-double-down::before
+		content '\f103'

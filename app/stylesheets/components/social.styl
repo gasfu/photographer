@@ -1,0 +1,24 @@
+.social
+	position fixed
+	height 100vh
+	top 0
+	right 30px
+	display none
+	
+	@media (min-width $screen-sm)
+		display flex	
+		display -webkit-flex	
+		flex-direction column
+		text-align center	
+		-webkit-flex-direction column	
+		justify-content center	
+		-webkit-justify-content center
+		
+	> .icon 
+		font-size 1em
+		color rgba(#FFFFFF, .2)
+		padding 15px
+		z-index 2
+		
+		&:hover
+			color #FFFFFF

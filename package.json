@@ -1,0 +1,27 @@
+{
+  "name": "photographer",
+  "version": "1.0.0",
+  "description": "Projeto de Site institucional para fotográfia",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-stylus": "^2.6.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasfu/photographer.git"
+  },
+  "author": "Gabriel E Thiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gasfu/photographer/issues"
+  },
+  "homepage": "https://github.com/gasfu/photographer#readme"
+}
