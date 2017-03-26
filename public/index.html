@@ -22,11 +22,42 @@
 		<!-- <button href="" class="action">Vamos conversar?</button> -->
 		<a class="icon --icon-down-open-big" href="#contact"></a>
 	</section>	
-	
+	<div class="clean"></div>
 	<!-- CONTACT -->
 	<section id="contact" class="contact">
 		<h1 class="title">CONTATO</h1>
 		<p class="sub-title">O que você acha de conversamos? Envie um email para mim, retornarei o contato o mais breve possivel.</p>
+		<form  class="container form">
+			<div class="row">
+				
+				<div class="input-group col-md-4">
+					<label class="label" for="name">Nome</label>
+					<input type="text" class="input" name="name" required>
+				</div>
+				
+				<div class="input-group col-md-4">
+					<label class="label" for="telefone">Telefone</label>
+					<input type="tel" class="input" name="telefone" required>
+				</div>
+
+				<div class="input-group col-md-4">
+					<label class="label" for="email">Email</label>
+					<input type="email" class="input" name="email" required>
+				</div>
+
+				<div class="input-group col-md-12">
+					<label class="label" for="mensage">Menssagem</label>
+					<textarea type="text" class="input" name="mensage" required></textarea>
+				</div>
+			
+			</div>
+
+			<div class="row">	
+				<div class="action">
+					<button type="submit" class="button --default --block">Enviar email</button>
+				</div>
+			</div>
+		</form>
 	</section>
 
 	<!-- SOCIAL -->
@@ -34,5 +65,8 @@
 		<a href="#" class="icon --icon-facebook"></a>
 		<a href="#" class="icon --icon-twitter"></a>
 	</aside>
+
+	<<script src="assets/js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
+	<<script src="assets/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
