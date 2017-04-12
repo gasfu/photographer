@@ -1,13 +1,22 @@
-const http = require('./http');
+const axios = require('axios');
+const form = document.querySelector("#contactForm");
 
 function submit (){
-	
-	// http.post('', null).then(function (response){
-	// 	console.log(response);
-	// });
+	const data = {
+
+	};
+
+	axios.get('mailer/mail.php', data).then(function (response){
+		console.log(response);
+	});
 
 	console.log('teste')
+	return false;
 	
 }
 
-submit();
+form.addEventListener('submit', function(e) {
+	e.preventDefault();
+	console.log('teste');
+	return submit();
+});
