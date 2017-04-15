@@ -17,6 +17,8 @@ function submit (){
 
 	axios.get('mailer/mail.php', { params: data}).then(function (response){
 		console.log(response.data);
+		const feed = document.querySelectorAll(".feedback")[0];
+		response.data.send ? feed.classList.add("--show") : null;
 	});
 
 	return false;
